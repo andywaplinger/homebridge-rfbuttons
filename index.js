@@ -1,5 +1,5 @@
 var Service, Characteristic;
-var rpi433 = require('rpi-433');
+var rpi433 = require('rpi-433-v3');
 
 module.exports = function(homebridge) {
     Service = homebridge.hap.Service;
